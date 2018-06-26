@@ -3,7 +3,7 @@ public class EasiestExerciseEver {
 
     }
 
-    public static String makeOutput(){
+    public static String makeOutputString(){
         String output = "*";
         return output;
     }

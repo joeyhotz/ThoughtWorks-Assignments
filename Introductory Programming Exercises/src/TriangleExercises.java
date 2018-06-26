@@ -1,6 +1,6 @@
 public class TriangleExercises {
     public static void main(String[] args) {
-        String output = EasiestExerciseEver.makeOutput();
+        String output = EasiestExerciseEver.makeOutputString();
         System.out.print(output);
     }
 }
