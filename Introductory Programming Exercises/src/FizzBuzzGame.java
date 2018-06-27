@@ -1,5 +1,4 @@
 public class FizzBuzzGame {
-    public static void main() {}
 
     public static String makeOutputString() {
         String output = "";

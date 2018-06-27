@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class PrimeFactorsExercise {
-    public static void main() {}
 
     public static String makeOutputString(int number) {
         //uses the generate function to make a string to view all the prime factors of the inputted number
@@ -15,7 +14,7 @@ public class PrimeFactorsExercise {
         return output;
     }
 
-    public static ArrayList<Integer> generate(int number) {
+    private static ArrayList<Integer> generate(int number) {
         ArrayList<Integer> output = new ArrayList<Integer>();
 
         for (int i = 2; i <= number; i++) {

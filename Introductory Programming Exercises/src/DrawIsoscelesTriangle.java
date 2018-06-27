@@ -1,5 +1,4 @@
 public class DrawIsoscelesTriangle {
-    public static void main() {}
 
     public static String makeOutputString(int numberOfLines) {
         String output = "";

@@ -1,5 +1,4 @@
 public class DrawVerticalLine {
-    public static void main() {}
 
     public static String makeOutputString(int numberOfLines) {
         String output = "";

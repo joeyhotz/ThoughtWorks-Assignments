@@ -1,7 +1,6 @@
 import static java.lang.Math.abs;
 
 public class DrawDiamond {
-    public static void main() {}
 
     public static String makeOutputString(int sideLength) {
         String output = "";

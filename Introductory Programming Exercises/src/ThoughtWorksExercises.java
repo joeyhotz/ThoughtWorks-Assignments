@@ -15,7 +15,7 @@ public class ThoughtWorksExercises {
             //Program menu
             output = menu(input);
 
-            System.out.print("\n=== RESULT ===\n------------------------------\n" + output + "\n------------------------------\n\n\nAgain?\n\n");
+            System.out.print("\n=== RESULT ===\n\n\n" + output + "\n\n\n\nAgain?\n\n");
         }
     }
 

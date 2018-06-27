@@ -1,7 +1,4 @@
 public class DrawHorizontalLine {
-    public static void main() {
-
-    }
 
     public static String makeOutputString(int numberOfAsterisks) {
         String output = "";
