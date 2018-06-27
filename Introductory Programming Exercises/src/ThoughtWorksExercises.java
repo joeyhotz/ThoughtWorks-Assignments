@@ -12,6 +12,7 @@ public class ThoughtWorksExercises {
             System.out.print("TRIANGLE EXERCISES\n1: Easiest Exercise Ever\n2: Draw a horizontal line\n3: Draw a vertical line\n4: Draw a right triangle\n\nDIAMOND EXERCISES\n5: Draw Isosceles Triangle\n6: Draw Diamond\n7: Draw Diamond with Name\n\nFIZZBUZZ EXERCISE\n8: FizzBuzz Game\n\nPRIME FACTORS EXERCISE\n9: Prime Factors Exercise\n\nChoose program (or \"x\" for the quitters):");
             input = String.format(scanner.nextLine());
 
+            //Program menu
             switch (input) {
                 case "1":   output = EasiestExerciseEver.makeOutputString();
                             break;
