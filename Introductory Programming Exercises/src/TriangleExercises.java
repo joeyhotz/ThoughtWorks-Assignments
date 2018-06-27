@@ -9,7 +9,7 @@ public class TriangleExercises {
         System.out.print("Hi! Welcome to my ThoughtWorks Assignment.\nType the corresponding number to view the output for the exercise\n\n");
 
         while (!input.equals("x")) {
-            System.out.print("1: Easiest Exercise Ever\n2: Draw a horizontal line\n3: Draw a vertical line\n4: Draw a right triangle\n\nDIAMOND EXERCISES\n5: Draw Isosceles Triangle\n6: Draw Diamond\n\nChoose program (or \"x\" for the quitters):");
+            System.out.print("1: Easiest Exercise Ever\n2: Draw a horizontal line\n3: Draw a vertical line\n4: Draw a right triangle\n\nDIAMOND EXERCISES\n5: Draw Isosceles Triangle\n6: Draw Diamond\n7: Draw Diamond with Name\n\nChoose program (or \"x\" for the quitters):");
             input = String.format(scanner.nextLine());
 
             switch (input) {
@@ -29,6 +29,12 @@ public class TriangleExercises {
                             break;
                 case "6":   System.out.print("What should the side length be?: ");
                             output = DrawDiamond.makeOutputString(Integer.parseInt(scanner.nextLine()));
+                            break;
+                case "7":
+                            System.out.print("What is your name?: ");
+                            String name = scanner.nextLine();
+                            System.out.print("What should the side length be?: ");
+                            output = DrawDiamondWithName.makeOutputString(Integer.parseInt(scanner.nextLine()), name);
                             break;
                 case "x":   output = "Th-th-th-tha-tha-tha-that's all, folks!";
                             break;
