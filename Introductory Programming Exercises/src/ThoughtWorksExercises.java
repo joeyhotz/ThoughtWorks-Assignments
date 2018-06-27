@@ -54,6 +54,7 @@ public class ThoughtWorksExercises {
             case "x":   output = "Th-th-th-tha-tha-tha-that's all, folks!";
                 break;
             default:    output = "AH I am just a simple stupid computer. Tell me something I know!";
+                break;
         }
         return output;
     }
