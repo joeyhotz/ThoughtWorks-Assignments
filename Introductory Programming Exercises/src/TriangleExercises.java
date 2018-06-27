@@ -10,7 +10,7 @@ public class TriangleExercises {
 
         while (!input.equals("x")) {
             input = "";
-            System.out.print("1: Easiest Exercise Ever\n2: Draw a horizontal line\n\n");
+            System.out.print("1: Easiest Exercise Ever\n2: Draw a horizontal line\n3: Draw a vertical line\n\n");
             System.out.print("Choose program (or \"x\" for the quitters): ");
             input = String.format(scanner.nextLine());
 
@@ -20,6 +20,10 @@ public class TriangleExercises {
                 case "2":   System.out.print("How many asterisks?: ");
                             int numberOfAsterisks = Integer.parseInt(scanner.nextLine());
                             output = DrawHorizontalLine.makeOutputString(numberOfAsterisks);
+                            break;
+                case "3":   System.out.print("How many lines?: ");
+                            int numberOfLines = Integer.parseInt(scanner.nextLine());
+                            output = DrawVerticalLine.makeOutputString(numberOfLines);
                             break;
                 case "x":   output = "That's all folks!";
                             break;
