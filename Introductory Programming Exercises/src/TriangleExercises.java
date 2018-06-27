@@ -26,6 +26,7 @@ public class TriangleExercises {
                             break;
                 case "x":   output = "That's all folks!";
                             break;
+                default:    output = "AH I am just a simple stupid computer. Tell me something I know!";
             }
             System.out.print(output + "\n\n\n");
         }
