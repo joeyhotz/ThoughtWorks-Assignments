@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc3ca1d-a1de-4c84-bd62-8ce126341d10" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ThoughtWorksExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThoughtWorksExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DrawDiamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DrawDiamond.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +14,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThoughtWorksExercises.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ThoughtWorksExercises.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ThoughtWorksExercises.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawDiamond.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DrawDiamond.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawIsoscelesTriangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DrawIsoscelesTriangle.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="DrawRightTriangle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DrawRightTriangle.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="DrawVerticalLine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DrawVerticalLine.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="FizzBuzzGame.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FizzBuzzGame.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="PrimeFactorsExercise.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PrimeFactorsExercise.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="e#621#630#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DrawDiamondWithName.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DrawDiamondWithName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -43,12 +92,12 @@
         <option value="$PROJECT_DIR$/src/DrawVerticalLine.java" />
         <option value="$PROJECT_DIR$/src/DrawRightTriangle.java" />
         <option value="$PROJECT_DIR$/src/DrawIsoscelesTriangle.java" />
-        <option value="$PROJECT_DIR$/src/DrawDiamond.java" />
         <option value="$PROJECT_DIR$/src/DrawDiamondWithName.java" />
         <option value="$PROJECT_DIR$/src/FizzBuzzGame.java" />
         <option value="$PROJECT_DIR$/src/TriangleExercises.java" />
         <option value="$PROJECT_DIR$/src/PrimeFactorsExercise.java" />
         <option value="$PROJECT_DIR$/src/ThoughtWorksExercises.java" />
+        <option value="$PROJECT_DIR$/src/DrawDiamond.java" />
       </list>
     </option>
   </component>
@@ -65,8 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -84,6 +131,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,7 +219,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="113" y="47" width="1997" height="1219" extended-state="0" />
+    <frame x="-7" y="0" width="1293" height="1447" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -182,11 +231,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32893" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27211395" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.5006519" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22283034" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -267,17 +316,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DrawVerticalLine.java" />
-    <entry file="file://$PROJECT_DIR$/src/DrawRightTriangle.java" />
-    <entry file="file://$PROJECT_DIR$/src/DrawIsoscelesTriangle.java" />
-    <entry file="file://$PROJECT_DIR$/src/DrawDiamond.java" />
-    <entry file="file://$PROJECT_DIR$/src/DrawDiamondWithName.java" />
-    <entry file="file://$PROJECT_DIR$/src/FizzBuzzGame.java" />
-    <entry file="file://$PROJECT_DIR$/src/PrimeFactorsExercise.java" />
     <entry file="file://$PROJECT_DIR$/src/ThoughtWorksExercises.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawDiamondWithName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="69" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawDiamond.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawIsoscelesTriangle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawRightTriangle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawVerticalLine.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FizzBuzzGame.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrimeFactorsExercise.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#621#630#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
