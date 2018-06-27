@@ -4,17 +4,14 @@ public class PrimeFactorsExercise {
     public static void main() {}
 
     public static String makeOutputString(int number) {
+        //uses the generate function to make a string to view all the prime factors of the inputted number
         String output = "";
 
         ArrayList<Integer> primeFactors = generate(number);
         for (Integer i : primeFactors) {
-            if (primeFactors.indexOf(i) == primeFactors.size() - 1) {
-                output = output + i;
-            } else {
-                output = output + i + ", ";
-            }
+            output = output + i + ", ";
         }
-
+        output = output.substring(0, output.length()-2); //cuts the ', ' off the last element
         return output;
     }
 
