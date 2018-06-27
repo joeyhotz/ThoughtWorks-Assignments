@@ -9,7 +9,7 @@ public class TriangleExercises {
         System.out.print("Hi! Welcome to my ThoughtWorks Assignment.\nType the corresponding number to view the output for the exercise\n\n");
 
         while (!input.equals("x")) {
-            System.out.print("1: Easiest Exercise Ever\n2: Draw a horizontal line\n3: Draw a vertical line\n4: Draw a right triangle\n\nChoose program (or \"x\" for the quitters):");
+            System.out.print("1: Easiest Exercise Ever\n2: Draw a horizontal line\n3: Draw a vertical line\n4: Draw a right triangle\n\nDIAMOND EXERCISES\n5: Draw Isosceles Triangle\nChoose program (or \"x\" for the quitters):");
             input = String.format(scanner.nextLine());
 
             switch (input) {
@@ -23,6 +23,9 @@ public class TriangleExercises {
                             break;
                 case "4":   System.out.print("How many lines?: ");
                             output = DrawRightTriangle.makeOutputString(Integer.parseInt(scanner.nextLine()));
+                            break;
+                case "5":   System.out.print("How many lines?: ");
+                            output = DrawIsoscelesTriangle.makeOutputString(Integer.parseInt(scanner.nextLine()));
                             break;
                 case "x":   output = "That's all folks!";
                             break;
