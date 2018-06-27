@@ -9,25 +9,20 @@ public class TriangleExercises {
         System.out.print("Hi! Welcome to my ThoughtWorks Assignment.\nType the corresponding number to view the output for the exercise\n\n");
 
         while (!input.equals("x")) {
-            input = "";
-            System.out.print("1: Easiest Exercise Ever\n2: Draw a horizontal line\n3: Draw a vertical line\n4: Draw a right triangle\n\n");
-            System.out.print("Choose program (or \"x\" for the quitters): ");
+            System.out.print("1: Easiest Exercise Ever\n2: Draw a horizontal line\n3: Draw a vertical line\n4: Draw a right triangle\n\nChoose program (or \"x\" for the quitters):");
             input = String.format(scanner.nextLine());
 
             switch (input) {
                 case "1":   output = EasiestExerciseEver.makeOutputString();
                             break;
                 case "2":   System.out.print("How many asterisks?: ");
-                            int numberOfAsterisks = Integer.parseInt(scanner.nextLine());
-                            output = DrawHorizontalLine.makeOutputString(numberOfAsterisks);
+                            output = DrawHorizontalLine.makeOutputString(Integer.parseInt(scanner.nextLine()));
                             break;
                 case "3":   System.out.print("How many lines?: ");
-                            int numberOfLinesVertical = Integer.parseInt(scanner.nextLine());
-                            output = DrawVerticalLine.makeOutputString(numberOfLinesVertical);
+                            output = DrawVerticalLine.makeOutputString(Integer.parseInt(scanner.nextLine()));
                             break;
                 case "4":   System.out.print("How many lines?: ");
-                            int numberOfLinesRightTriangle = Integer.parseInt(scanner.nextLine());
-                            output = DrawRightTriangle.makeOutputString(numberOfLinesRightTriangle);
+                            output = DrawRightTriangle.makeOutputString(Integer.parseInt(scanner.nextLine()));
                             break;
                 case "x":   output = "That's all folks!";
                             break;
