@@ -14,7 +14,7 @@ class DrawHorizontalLineTests {
     @Test
     void testHorizontalLineTenAsterisks() {
         String actualOutput = DrawHorizontalLine.makeOutputString(12);
-        String expectedOutput = "************it ";
+        String expectedOutput = "************";
         assertEquals(expectedOutput, actualOutput);
     }
 }
