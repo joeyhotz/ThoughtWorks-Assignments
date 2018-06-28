@@ -14,7 +14,7 @@ public class PrimeFactorsExercise {
         return output;
     }
 
-    private static ArrayList<Integer> generate(int number) {
+    public static ArrayList<Integer> generate(int number) {
         ArrayList<Integer> output = new ArrayList<Integer>();
 
         for (int i = 2; i <= number; i++) {

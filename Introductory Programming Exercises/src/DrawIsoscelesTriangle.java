@@ -12,7 +12,7 @@ public class DrawIsoscelesTriangle {
                     output = output.concat(" ");
                 }
             }
-            output = output.concat("\n");
+            if (y != numberOfLines) output = output.concat("\n");
         }
         return output;
     }

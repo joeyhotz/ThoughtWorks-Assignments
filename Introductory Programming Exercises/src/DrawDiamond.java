@@ -14,7 +14,7 @@ public class DrawDiamond {
                     output = output.concat(" ");
                 }
             }
-            output = output.concat("\n");
+            if (y != 2*sideLength-1) output = output.concat("\n"); //if its not the last line
         }
         return output;
     }
