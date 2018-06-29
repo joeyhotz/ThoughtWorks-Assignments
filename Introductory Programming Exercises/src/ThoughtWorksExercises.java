@@ -28,34 +28,35 @@ public class ThoughtWorksExercises {
     private static String menu(String input) {
         //The menu - returns the string to output
         String output = "";
+        int number;
 
         switch (input) {
             case "1":   output = EasiestExerciseEver.makeOutputString();
                 break;
-            case "2":   System.out.print("How many asterisks?: ");
-                output = DrawHorizontalLine.makeOutputString(Integer.parseInt(scanner.nextLine()));
+            case "2":   number = askForNumberInput("How many asterisks?: ");
+                output = DrawHorizontalLine.makeOutputString(number);
                 break;
-            case "3":   System.out.print("How many lines?: ");
-                output = DrawVerticalLine.makeOutputString(Integer.parseInt(scanner.nextLine()));
+            case "3":   number = askForNumberInput("How many lines?: ");
+                output = DrawVerticalLine.makeOutputString(number);
                 break;
-            case "4":   System.out.print("How many lines?: ");
-                output = DrawRightTriangle.makeOutputString(Integer.parseInt(scanner.nextLine()));
+            case "4":   number = askForNumberInput("How many lines?: ");
+                output = DrawRightTriangle.makeOutputString(number);
                 break;
-            case "5":   System.out.print("How many lines?: ");
-                output = DrawIsoscelesTriangle.makeOutputString(Integer.parseInt(scanner.nextLine()));
+            case "5":   number = askForNumberInput("How many lines?: ");
+                output = DrawIsoscelesTriangle.makeOutputString(number);
                 break;
-            case "6":   System.out.print("What should the side length be?: ");
-                output = DrawDiamond.makeOutputString(Integer.parseInt(scanner.nextLine()));
+            case "6":   number = askForNumberInput("What should the side length be?: ");
+                output = DrawDiamond.makeOutputString(number);
                 break;
             case "7":   System.out.print("What is your name?: ");
                 String name = scanner.nextLine();
-                System.out.print("What should the side length be?: ");
-                output = DrawDiamondWithName.makeOutputString(Integer.parseInt(scanner.nextLine()), name);
+                number = askForNumberInput("What should the side length be?: ");
+                output = DrawDiamondWithName.makeOutputString(number, name);
                 break;
             case "8":   output = FizzBuzzGame.makeOutputString();
                 break;
-            case "9":   System.out.print("What is the number to print it's factors for?: ");
-                output = PrimeFactorsExercise.makeOutputString(Integer.parseInt(scanner.nextLine()));
+            case "9":   number = askForNumberInput("What is the number to print it's factors for?: ");
+                output = PrimeFactorsExercise.makeOutputString(number);
                 break;
             case "x":   output = "Th-th-th-tha-tha-tha-that's all, folks!";
                 break;
@@ -64,4 +65,15 @@ public class ThoughtWorksExercises {
         }
         return output;
     }
+
+    private static int askForNumberInput(String label) {
+        System.out.print(label);
+        String number = scanner.nextLine();
+        while (Pattern.matches("[^1-9]*", number)) {
+            System.out.print("Please only enter a number: ");
+            number = scanner.nextLine();
+        }
+        return Integer.parseInt(number);
+    }
 }
+
