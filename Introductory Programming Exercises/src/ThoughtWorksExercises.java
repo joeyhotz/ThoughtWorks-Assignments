@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.regex.Pattern;
 
 public class ThoughtWorksExercises {
     static Scanner scanner = new Scanner(System.in);
@@ -11,11 +12,16 @@ public class ThoughtWorksExercises {
         while (!input.equals("x")) {
             System.out.print("TRIANGLE EXERCISES\n1: Easiest Exercise Ever\n2: Draw a horizontal line\n3: Draw a vertical line\n4: Draw a right triangle\n\nDIAMOND EXERCISES\n5: Draw Isosceles Triangle\n6: Draw Diamond\n7: Draw Diamond with Name\n\nFIZZBUZZ EXERCISE\n8: FizzBuzz Game\n\nPRIME FACTORS EXERCISE\n9: Prime Factors Exercise\n\nType exercise number (or \"x\" for the quitters): ");
             input = String.format(scanner.nextLine());
-
-            //Program menu
             output = menu(input);
 
-            System.out.print("\n=== RESULT ===\n\n\n" + output + "\n\n\n\nAgain?\n\n");
+            //Program menu
+            if (Pattern.matches("^[1-9]$", input)) {
+                System.out.print("\n=== RESULT ===\n\n\n" + output + "\n\n\n\nAgain?\n\n");
+            } else if (input.equals("x")) {
+                System.out.print("\n\n" + output + "\n\n");
+            } else {
+                System.out.print("\nIncorrect input. Please enter a number between 1-9 or 'x'\nPlease try again.\n\n");
+            }
         }
     }
 

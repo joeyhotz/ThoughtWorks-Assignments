@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acc3ca1d-a1de-4c84-bd62-8ce126341d10" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Introductory Programming Exercises.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Introductory Programming Exercises.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ThoughtWorksExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThoughtWorksExercises.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,20 +20,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThoughtWorksExercises.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ThoughtWorksExercises.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ThoughtWorksExercises.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="601">
+              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DrawRightTriangleTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DrawRightTriangleTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/DrawRightTriangleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,8 +161,8 @@
         <option value="$PROJECT_DIR$/tests/FizzBuzzGameTest.java" />
         <option value="$PROJECT_DIR$/src/PrimeFactorsExercise.java" />
         <option value="$PROJECT_DIR$/tests/PrimeFactorsExerciseTest.java" />
-        <option value="$PROJECT_DIR$/src/ThoughtWorksExercises.java" />
         <option value="$PROJECT_DIR$/tests/DrawDiamondTests.java" />
+        <option value="$PROJECT_DIR$/src/ThoughtWorksExercises.java" />
       </list>
     </option>
   </component>
@@ -186,7 +191,12 @@
             <path>
               <item name="Introductory Programming Exercises" type="b2602c69:ProjectViewProjectNode" />
               <item name="Introductory Programming Exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Introductory Programming Exercises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Introductory Programming Exercises" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -240,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ThoughtWorks Exercises Tests">
+  <component name="RunManager" selected="Application.ThoughtWorksExercises">
     <configuration name="ThoughtWorksExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ThoughtWorksExercises" />
       <module name="Introductory Programming Exercises" />
@@ -328,8 +338,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzGameTest.testFizzBuzzGame" />
         <item itemvalue="Application.ThoughtWorksExercises" />
+        <item itemvalue="JUnit.FizzBuzzGameTest.testFizzBuzzGame" />
       </list>
     </recent_temporary>
   </component>
@@ -347,12 +357,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ThoughtWorks_Exercises_Tests - 2018.06.28 at 15h 27m 56s.xml">
-      <configuration name="ThoughtWorks Exercises Tests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ThoughtWorks_Exercises_Tests - 2018.06.28 at 15h 31m 29s.xml">
-      <configuration name="ThoughtWorks Exercises Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzGameTest_testFizzBuzzGame - 2018.06.28 at 15h 31m 38s.xml">
       <configuration name="FizzBuzzGameTest.testFizzBuzzGame" configurationId="JUnit" />
     </history-entry>
@@ -377,30 +381,37 @@
     <history-entry file="ThoughtWorks_Exercises_Tests - 2018.06.28 at 15h 37m 50s.xml">
       <configuration name="ThoughtWorks Exercises Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ThoughtWorks_Exercises_Tests - 2018.06.29 at 17h 39m 51s.xml">
+      <configuration name="ThoughtWorks Exercises Tests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThoughtWorks_Exercises_Tests - 2018.06.29 at 17h 41m 04s.xml">
+      <configuration name="ThoughtWorks Exercises Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="5" />
-      <window_info active="true" anchor="bottom" id="Messages" order="6" visible="true" weight="0.3281046" />
+      <window_info anchor="bottom" id="Messages" order="6" weight="0.3281046" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Run" order="8" sideWeight="0.4996209" weight="0.20039761" />
+      <window_info anchor="right" id="Run" order="8" sideWeight="0.4996209" visible="true" weight="0.3841146" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3297953" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11393229" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11393229" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3988006" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.39869282" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5003791" side_tool="true" weight="0.20039761" />
@@ -416,7 +427,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="14" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -431,6 +442,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="28" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -688,13 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ThoughtWorksExercises.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Introductory Programming Exercises.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -718,8 +725,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/DrawRightTriangleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ThoughtWorksExercises.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
